@@ -48,9 +48,9 @@ useEffect(()=>{
           <td>{e.name}</td>
           <td>{e.email}</td>
             <td>
-                            <Button variant='white' onClick={()=>toast.error("Contact Admin")} ><img src='./src/assets/Edit.png' style={{backgroundColor:"none",width:"40px",height:"40px"}} /></Button>
+                            <Button variant='primary' onClick={()=>toast.error("Contact Admin")} >Edit</Button>
                             &nbsp;&nbsp;
-                            <Button variant='white' onClick={()=>toast.error("Not allowed")}><img src='./src/assets/Delete.png' style={{backgroundColor:"none",width:"40px",height:"40px"}} /></Button>
+                            <Button variant='danger' onClick={()=>toast.error("Not allowed")}>Delete</Button>
                         </td>
         </tr>
           })

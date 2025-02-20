@@ -79,9 +79,9 @@ const handledelete = async(id)=>{
           <td>{
             e.company}</td>
             <td>
-                            <Button variant='white' onClick={()=>navigate(`/books/edit/${e.id}`)} ><img src='./src/assets/Edit.png' style={{backgroundColor:"none",width:"40px",height:"40px"}} /></Button>
+                            <Button variant='primary' onClick={()=>navigate(`/books/edit/${e.id}`)} >Edit</Button>
                             &nbsp;&nbsp;
-                            <Button variant='white' onClick={()=>handledelete(e.id)}><img src='./src/assets/Delete.png' style={{backgroundColor:"none",width:"40px",height:"40px"}} /></Button>
+                            <Button variant='danger' onClick={()=>handledelete(e.id)}>Delete</Button>
                         </td>
         </tr>
           })
