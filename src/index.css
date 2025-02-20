@@ -1,0 +1,6 @@
+.one:hover{
+    cursor: pointer;
+}
+#number,#pincode,#number::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
